@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-size: 14px;
+	color: #333;
+	background-color: #f0f0f0;
+	background-image: url(../images/bg_lower.jpg);
+}
+#twitter_box {
+	float: right;
+	width: 300px;
+	background-color: #f5f5f5;
+	border: 1pt solid #cecece;
+	height: 335px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6a6a6a;
+	font-size: 12px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.correct {
+	list-style-image: url(../images/tick.png);
+}
+.missing {
+	list-style-image: url(../images/cross.png);
+}
+
+
+#slider {
+	height: 215px;
+	width: 367px;
+	margin-top: 33px;
+	margin-left: 39px;
+}
+
+#gpwidget {
+	float: left;
+	height: 340px;
+	width: 320px;
+	margin-right: 6px;
+}
+#welcome {
+	float: right;
+	height: 150px;
+	width: 295px;
+	margin-right: 5px;
+	padding: 5px;
+	border-top-left-radius: 50px 50px;
+	border-top-right-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	margin-top: 25px;
+	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(4, 4, 4, 4);
+	box-shadow: inset 0px 0px 1px 1px rgba(4, 4, 4, 4);
+}
+#container {
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 350px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 12px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	margin-top: 12px;
+	
+	
+}
+#container2 {
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:350;
+	height: 350px;
+	height:auto !important;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 12px;
+	padding-right: 8px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	margin-top: 12px;
+}
+#container3 {
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:350;
+	height: 350px;
+	height:auto !important;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 12px;
+	padding-right: 8px;
+	padding-bottom: 25px;
+	padding-left: 12px;
+	margin-top: 12px;
+}
+#contact {
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 400px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 12px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	margin-top: 12px;
+}
+
+#about-text {
+	width: 400px;
+	height: 280px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 6px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	float: right;
+	clear: right;
+}
+#project_text {
+	width: 490px;
+	height: 280px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border:1px solid #D4D4D4;
+	background-color:#FFFFFF;
+	padding-top: 6px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	float: right;
+	clear: right;
+}
+
+
+#container2 {
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 350px;
+	min-height:350px;
+	height:auto !important;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	padding-top: 12px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	margin-top: 12px;
+	clear: both;
+}
+#tab {
+	float: left;
+	height: 292px;
+	width: 444px;
+	background-image: url(../images/tab.png);
+}
+
+
+
+
+/*
+Start Navigation menu
+*/
+#menu_bar {
+	height: 48px;
+	width: 100%;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	background-color: #f0f0f0;
+	margin-bottom: 8px;
+}
+
+/* END NAV MENU*/
+#footer {
+	font-family: "Courier New", Courier, monospace;
+	color: #999;
+	height: 25px;
+	width: 884px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 12px;
+	text-align: center;
+	padding: 4px;
+}
+.error {
+	font-style: italic;
+	color: #F00;
+}
